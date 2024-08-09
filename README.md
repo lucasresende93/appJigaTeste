@@ -1,5 +1,29 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# Introdução
+
+Aplicativo desenvolvido em React Native CLI, para testar e homologar os módulos de injeção eletrônica. O aplicativo conecta na peça que será testada via Bluetooth, e envia um comando para a peça. A peça inicia os testes, e retorna um log, o aplicativo analisa o log e seta de verde todos os periféricos que passaram no teste, e de amarelo os periféricos que não foram aprovados. 
+
+Após o teste, o usuário entra na tela de QR Code, faz a leitura, e automaticamente é enviado para o banco de dados os metadados da peça.
+
+
+<img src="https://github.com/user-attachments/assets/30c65e13-f739-4b10-af3a-edd45beb6626" alt="imag1" style="width:200px; height:auto;">
+<img src="https://github.com/user-attachments/assets/9f0e1b43-fec9-41c1-bc58-09400f8f7cb5" alt="imag2" style="width:200px; height:auto;">
+<img src="https://github.com/user-attachments/assets/8662fc45-a271-491e-b8cb-9ab7f3fd513e" alt="imag3" style="width:200px; height:auto;">
+<img src="https://github.com/user-attachments/assets/7def90ee-7139-47e9-a1cf-d2e76cc573d5" alt="imag4" style="width:200px; height:auto;">
+<img src="https://github.com/user-attachments/assets/7def90ee-7139-47e9-a1cf-d2e76cc573d5" alt="imag5" style="width:200px; height:auto;">
+<img src="https://github.com/user-attachments/assets/4396056e-89a3-413d-9149-382b7246fb53" alt="imag7" style="width:200px; height:auto;">
+<img src="https://github.com/user-attachments/assets/ef404349-11d3-4c72-b506-bc3dc9537ef3" alt="imag6" style="width:200px; height:auto;">
+
+## Técnicas e tecnologias utilizadas
+
+- ``Javascript``
+- ``React Native CLI``
+- ``Bluetooth Low Energy library``
+- ``QR Code reader library``
+- ``Stack Navigator``
+- ``Axios``
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
