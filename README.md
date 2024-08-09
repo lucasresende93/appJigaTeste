@@ -2,9 +2,9 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Introdução
 
-Aplicativo desenvolvido em React Native CLI, para testar e homologar os módulos de injeção eletrônica. O aplicativo conecta na peça que será testada via Bluetooth, e envia um comando para a peça. A peça inicia os testes, e retorna um log, o aplicativo analisa o log e seta de verde todos os periféricos que passaram no teste, e de amarelo os periféricos que não foram aprovados. 
+Aplicativo desenvolvido em React Native CLI para testar e homologar os módulos de injeção eletrônica. O aplicativo se conecta à peça que será testada via Bluetooth e envia um comando para a peça. A peça inicia os testes e retorna um log. O aplicativo analisa o log e marca em verde todos os periféricos que passaram no teste, e em amarelo os periféricos que não foram aprovados.
 
-Após o teste, o usuário entra na tela de QR Code, faz a leitura, e automaticamente é enviado para o banco de dados os metadados da peça.
+Após o teste, o usuário acessa a tela de QR Code, faz a leitura, e os metadados da peça são enviados automaticamente para o banco de dados.
 
 
 <img src="https://github.com/user-attachments/assets/30c65e13-f739-4b10-af3a-edd45beb6626" alt="imag1" style="width:200px; height:auto;">
