@@ -8,7 +8,7 @@ import { useBluetoothContext } from '../utils/hook/bluetooth'
 const cmdTestador = ['54', '46', '53', '73', '01', '01', '9E']
 const cmdSimulador = ['54', '46', '53', '54', '01', '01', 'BD']
 const cmdStartTest = ['54', '46', '53', '53', '01', '01', 'BE']
- // teste commit ssh
+ 
 
 
 const Testador = ({ navigation }) => {
